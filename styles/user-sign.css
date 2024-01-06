@@ -16,7 +16,7 @@
   max-width: 400px;
   max-height: 440px;
   border-radius: 20px;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(50px);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -226,7 +226,7 @@
 @media screen and (max-width: 768px) {
   .user-sign-in-container{
     z-index: 10000;
-    
+    background-color: #000;
   }
 
   .login-btn .tooltip{
