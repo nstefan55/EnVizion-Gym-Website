@@ -195,7 +195,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -120px;
+    margin-top: -100px;
   }
 
   .navbar-link:nth-child(1){
@@ -256,6 +256,10 @@
 
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .login-btn{
+    margin-bottom: 10rem;
   }
   
 }
