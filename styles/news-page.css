@@ -90,6 +90,29 @@
 }
 
 
+.return-btn{
+  padding: 1rem 3rem;
+  border: none;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: all .15s ease-in-out;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.return-btn:hover{
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+.return-btn:active{
+  opacity: .8;
+}
+
+
 
 @media screen and (880px <= width <= 1330px) {
 
