@@ -117,6 +117,18 @@ main{
   outline: 2px solid red;
 }
 
+.country-select{
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.option-style{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+
 
 .submit-form{
   padding: .8rem 3rem;
